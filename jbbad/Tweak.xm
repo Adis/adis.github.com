@@ -36,11 +36,12 @@ the generation of a class list and an automatic constructor.
 // Class used to check for jailbreaks
 %hook JBChecker
 
-// Redefince the behavior of the function that checks
+// Redefine the behavior of the function that checks
 // for jailbreaks
 + (BOOL)isJailbroken
 {
 	%log;
+	NSLog(@"Using the hooked JB method");
 	return NO;
 }
 
