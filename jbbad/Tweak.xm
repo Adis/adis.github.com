@@ -33,11 +33,13 @@ the generation of a class list and an automatic constructor.
 %end
 */
 
-#import <UIKit/UIKit.h>
-
+// Class used to check for jailbreaks
 %hook JBChecker
 
+// Redefince the behavior of the function that checks
+// for jailbreaks
 + (BOOL)isJailbroken
 {
+	%log;
 	return NO;
 }
