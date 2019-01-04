@@ -43,3 +43,5 @@ the generation of a class list and an automatic constructor.
 	%log;
 	return NO;
 }
+
+%end

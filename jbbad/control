@@ -1,9 +1,9 @@
 Package: co.infinum.jbbad
 Name: JBBad
 Depends: mobilesubstrate
-Version: 0.0.2
+Version: 0.0.3
 Architecture: iphoneos-arm
-Description: Disabling the jaibreak detection!
+Description: Disabling the jaibreak detection 2!
 Maintainer: Adis
 Author: Adis
 Section: Tweaks
