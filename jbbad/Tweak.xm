@@ -33,6 +33,24 @@ the generation of a class list and an automatic constructor.
 %end
 */
 
+%hook ViewController
+
+- (void)viewDidLoad
+{
+	%orig
+	UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Hello"
+                                                                   message:@"You've been jailbreak broken."
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *ok = [UIAlertAction actionWithTitle:@"Okey dokey"
+                                                 style:UIAlertActionStyleDefault
+                                               handler:nil];
+
+    [alert addAction:ok];
+    [self presentViewController:alert animated:YES completion:nil];
+}
+
+%end
+
 // Class used to check for jailbreaks
 %hook JBChecker
 
