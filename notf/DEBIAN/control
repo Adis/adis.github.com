@@ -1,9 +1,0 @@
-Package: co.infinum.notf
-Name: notf
-Depends: mobilesubstrate
-Version: 0.0.2
-Architecture: iphoneos-arm
-Description: Debug tweak for testing
-Maintainer: Adis
-Author: Adis
-Section: Tweaks

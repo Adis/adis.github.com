@@ -1,7 +1,7 @@
 Package: co.infinum.jbbad
 Name: JBBad
 Depends: mobilesubstrate
-Version: 0.0.7
+Version: 0.1.0
 Architecture: iphoneos-arm
 Description: Disabling the jaibreak detection for Jailbreaking Bad app!
 Maintainer: Adis
