@@ -2,7 +2,7 @@
 
 - (void)viewDidLoad
 {
-	%orig
+	%orig;
 	UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Hello"
                                                                    message:@"You've been jailbreak broken."
                                                             preferredStyle:UIAlertControllerStyleAlert];
