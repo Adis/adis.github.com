@@ -4,6 +4,12 @@
 
 Unsecure repo used for a single tweak - demonstrating the disabling of jailbreak detection on a jailbroken device. If you want to know more, visit the link above.
 
+## Companion repo
+
+This repo contains a tweak to disable the jailbreak detection for the app found in this repo:
+
+[https://github.com/Adis/jailbreaking-bad](https://github.com/Adis/jailbreaking-bad)
+
 ## License
 
 MIT License
