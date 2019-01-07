@@ -1,0 +1,9 @@
+Package: co.infinum.notf
+Name: JBBad
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Debug tweak for testing
+Maintainer: Adis
+Author: Adis
+Section: Tweaks
